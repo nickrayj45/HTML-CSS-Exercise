@@ -1,0 +1,38 @@
+body {
+    background-color: dodgerblue;
+    /* Box Model */
+    padding: 0;
+
+    /* Positioning */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+
+    /* Typography */
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: floralwhite;
+    width: 100%;
+}
+
+#main-bio {
+    width: 70%;
+    background-color: floralwhite;
+}
+
+#contact-info {
+    background-color: floralwhite;
+}
+
+#main-info,
+#contact-info {
+    float: left;
+}
